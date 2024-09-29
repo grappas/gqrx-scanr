@@ -1,0 +1,9 @@
+[package]
+name = "gqrx-scanr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+env_logger = "*"
+log = "*"
